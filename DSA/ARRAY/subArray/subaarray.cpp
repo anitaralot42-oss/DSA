@@ -5,6 +5,7 @@ int main() {
 
     
     // Hamara array
+    int n= 4;
     int arr[] = {1, 2, 3, 4};
 
     /*
@@ -19,7 +20,7 @@ int main() {
 
     // Outer loop:
     // 'start' decide karega ki subarray kaha se start hoga
-    for (int start = 0; start < 4; start++) {
+    for (int start = 0; start < n; start++) {
 
 
         // Inner loop:
@@ -27,7 +28,7 @@ int main() {
         //
         // end = start se start hota hai,
         // isliye har subarray minimum 1 element ka hoga
-        for (int end = start; end < 4; end++) {
+        for (int end = start; end < n; end++) {
 
 
             // Ye current subarray ki opening bracket print karega

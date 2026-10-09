@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+// Subarray – Definition
+
+// Subarray = array ke andar ke continuous (lagataar) elements ka group.
+
 int main() {
 
     // Ye hamara array hai
